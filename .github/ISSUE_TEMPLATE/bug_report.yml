@@ -5,7 +5,7 @@ body:
     id: version
     attributes:
       label: MOD 版本
-      placeholder: 例如 1.19.0
+      placeholder: 例如 1.0
     validations:
       required: true
   - type: textarea

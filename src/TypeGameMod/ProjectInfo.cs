@@ -8,8 +8,8 @@ namespace TypeGameMod
 {
     internal static class ProjectInfo
     {
-        internal const string Version = "1.19.2";
-        internal const string AssemblyVersion = Version + ".0";
+        internal const string Version = "1.0";
+        internal const string AssemblyVersion = "1.0.0.0";
         internal const string ProtocolFamily = "1.18.4";
     }
 }

@@ -1,4 +1,4 @@
-# 当前架构 · 1.19.2
+# 当前架构 · 1.0
 
 这是一个 x86 WinForms 启动器。C# 负责输入、规则、联网状态和画面数据，原生 x86 桥接负责必须在原游戏 UI 线程完成的绘制、移动及场景回调。游戏原文件不直接修改；玩法类可以脱离游戏运行测试。
 
@@ -79,4 +79,4 @@
 
 GameIdentity拥有文件哈希校验；安装模块只接收明确传入的实例名，不读取窗体静态状态。GameBundle定义随包Classic目录并验证游戏身份；LauncherOptions决定自动启动、设置、显式游戏路径和连接已有进程。GameInstallation在便携模式直接准备随包副本，在外部安装模式继续准备独立运行副本。
 
-tools/package.ps1按build/game-files.json组织完整包；tools/export-source.ps1按维护清单导出干净仓库，二者共用Release.Common.ps1的版本、校验和压缩函数。历史日志与分析数据不混入玩家包。发布流程不改变玩法；1.19.1沿用v15，与1.18.4兼容。
+tools/package.ps1按build/game-files.json组织完整包；tools/export-source.ps1按维护清单导出干净仓库，二者共用Release.Common.ps1的版本、校验和压缩函数。历史日志与分析数据不混入玩家包。1.0沿用v15协议及原有兼容标识，公开版本重新编号不改变联网行为。
