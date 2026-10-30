@@ -13,7 +13,12 @@ if (!(Test-Path -LiteralPath $msbuild)) {
 $buildArguments = @('/nologo', '/verbosity:minimal', "/p:Configuration=$Configuration", '/p:Platform=x86')
 if ($ReferenceAssembliesPath) {
     $referenceRoot = [IO.Path]::GetFullPath($ReferenceAssembliesPath) + [IO.Path]::DirectorySeparatorChar
-    $buildArguments += "/p:TargetFrameworkRootPath=$referenceRoot"
+    $frameworkReferences = Join-Path $referenceRoot '.NETFramework/v4.0'
+    if (!(Test-Path -LiteralPath (Join-Path $frameworkReferences 'mscorlib.dll'))) {
+        throw 'ReferenceAssembliesPath must contain .NETFramework/v4.0/mscorlib.dll.'
+    }
+    # Keep mscorlib in the same reference set as the other framework assemblies.
+    $buildArguments += @("/p:TargetFrameworkRootPath=$referenceRoot", "/p:FrameworkPathOverride=$frameworkReferences")
 }
 if ($Rebuild) { $buildArguments += '/t:Rebuild' }
 & $msbuild (Join-Path $PSScriptRoot 'TypeGameMod.sln') @buildArguments

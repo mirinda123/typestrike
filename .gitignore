@@ -25,3 +25,5 @@ owned-processes.json
 *.til
 # User-provided soundtrack: keep it locally; it is not part of the source repository.
 audio/MOON-Paris.m4a
+# Generated when exporting a source archive.
+/manifest.json
