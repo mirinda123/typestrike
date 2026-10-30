@@ -42,4 +42,4 @@ Paris文件为 `audio/MOON-Paris.m4a`。若包内没有该文件，可自行提�
 
 启动失败时确认完整解压、Classic目录及compat目录齐全，查看 `logs/TypeGameWASD.log`。问题反馈请附版本、Windows版本、复现步骤及相关日志；发送前删除个人路径。
 
-原创MOD、原版游戏和第三方素材的许可分别见根目录LICENSE.txt、THIRD_PARTY.md、Classic/License.txt及compat/audio中的许可记录。
+原创MOD、原版游戏和第三方素材的许可分别见根目录LICENSE.txt、Classic/License.txt及compat/audio中的许可记录。

@@ -19,7 +19,7 @@ foreach ($directory in @('compat', 'audio/weapons')) {
         Copy-ReleaseFile $_.FullName (Join-Path $runtime $relative)
     }
 }
-foreach ($file in @('LICENSE.txt', 'THIRD_PARTY.md', 'CHANGELOG.md', 'audio/README.txt')) {
+foreach ($file in @('LICENSE.txt', 'CHANGELOG.md', 'audio/README.txt')) {
     Copy-ReleaseFile (Join-Path $projectRoot $file) (Join-Path $runtime $file)
 }
 Copy-ReleaseFile (Join-Path $projectRoot 'docs/RUNNING.md') (Join-Path $runtime 'README.md')

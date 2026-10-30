@@ -35,7 +35,6 @@ TypeGameWASD-版本/
   compat/               兼容组件、清单和许可
   README.md             玩家说明
   LICENSE.txt           原创MOD代码许可
-  THIRD_PARTY.md         组件及素材来源
   manifest.json         相对路径、长度、SHA-256
 ```
 

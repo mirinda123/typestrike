@@ -12,7 +12,7 @@ foreach ($directory in @('src', 'tests', 'native', 'assets', 'audio/weapons', 'c
         }
 }
 $files = @('TypeGameMod.sln', 'build.ps1', 'README.md', 'CHANGELOG.md', 'CONTRIBUTING.md',
-    'THIRD_PARTY.md', 'LICENSE.txt', '.editorconfig', '.clang-format', '.gitignore', '.gitattributes',
+    'LICENSE.txt', '.editorconfig', '.clang-format', '.gitignore', '.gitattributes',
     'audio/README.txt', 'build/common.props', 'build/game-files.json',
     'docs/ARCHITECTURE.md', 'docs/DEVELOPMENT.md', 'docs/RUNNING.md', 'docs/RELEASING.md',
     'tools/Release.Common.ps1', 'tools/package.ps1', 'tools/export-source.ps1',

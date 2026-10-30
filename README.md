@@ -5,5 +5,3 @@
 包含重制角色动画、AK47、霰弹枪，以及瞬移、持盾等玩法。
 
 运行与操作见 [玩家说明](docs/RUNNING.md)；Windows 下执行 `./build.ps1 -Test` 可构建并运行离线测试。
-
-由作者与 OpenAI Codex 协作开发，第三方组件和素材来源见 [许可与来源](THIRD_PARTY.md)。
