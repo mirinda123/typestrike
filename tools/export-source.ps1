@@ -14,7 +14,7 @@ foreach ($directory in @('src', 'tests', 'native', 'assets', 'audio/weapons', 'c
 $files = @('TypeGameMod.sln', 'build.ps1', 'README.md', 'CHANGELOG.md', 'CONTRIBUTING.md',
     'LICENSE.txt', '.editorconfig', '.clang-format', '.gitignore', '.gitattributes',
     'audio/README.txt', 'build/common.props', 'build/game-files.json',
-    'docs/ARCHITECTURE.md', 'docs/DEVELOPMENT.md', 'docs/RUNNING.md', 'docs/RELEASING.md',
+    'docs/ARCHITECTURE.md', 'docs/DEVELOPMENT.md', 'docs/RUNNING.md', 'docs/RELEASING.md', 'docs/images/cover.png',
     'tools/Release.Common.ps1', 'tools/package.ps1', 'tools/export-source.ps1',
     'tools/check-release.ps1', 'tools/build_native.py', 'tools/build_map_cover.py', 'tools/verify_refactor.py',
     'tools/format.ps1', 'tools/requirements-native.txt', 'tools/requirements-format.txt')
