@@ -1,0 +1,27 @@
+name: 问题反馈
+description: 报告启动、画面、玩法或联网问题
+body:
+  - type: input
+    id: version
+    attributes:
+      label: MOD 版本
+      placeholder: 例如 1.19.0
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤与实际现象
+      description: 说明单人或联网、角色、武器、操作及预期结果。
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 运行环境
+      description: Windows版本、显卡、是否HDR；联网时说明有线／Wi-Fi及双方MOD版本。
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志或截图
+      description: 可提供logs/TypeGameWASD.log的相关片段；发送前删除个人路径等信息。

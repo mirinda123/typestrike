@@ -1,0 +1,27 @@
+.vs/
+bin/
+obj/
+artifacts/
+*.user
+*.suo
+*.log
+__pycache__/
+*.pyc
+.venv/
+.private/
+Classic/
+logs/
+validation/
+docs/history/
+owned-processes.json
+*.zip
+*.zip.sha256
+*.i64
+*.idb
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+# User-provided soundtrack: keep it locally; it is not part of the source repository.
+audio/MOON-Paris.m4a

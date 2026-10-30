@@ -1,0 +1,145 @@
+{
+  "source": "Approved Blender police idle, hands at trouser sides and matched highlights",
+  "source_project": "Police-Idle-Eight-Directions/Police-eight-direction-idle.blend",
+  "source_project_sha256": "158402d278898047928cc594d852ed57b47829a4d94ea9808268bb3de64a7124",
+  "frame_size": [
+    92,
+    99
+  ],
+  "source_frame_size": [
+    61,
+    85
+  ],
+  "translation": [
+    14,
+    5
+  ],
+  "resampling": "none; integer translation only",
+  "frames": 9,
+  "sheet_cells": 18,
+  "spare_cells": "repeat the same nine poses; runtime addresses only cells 0..8",
+  "cycle_seconds": 0.5179694999969797,
+  "character_and_shadow_pixels_preserved": true,
+  "directions": {
+    "N": {
+      "bank_sha256": "4cead71b4cfb98f2939d29e27476351494742af7ecc50764b5027a64db83bd83",
+      "distinct_frames": 9,
+      "source_frame_sha256": [
+        "33fb09f80888c06c2dba75b0a8b2203b1ced31c0d3319e160d99c944748202fc",
+        "da4dbe263b600e596d69a0df70f97912b4e20e2c4a7951d7fb680273aac8f53f",
+        "101cbcb52fb4a08151b0837a66afd6dda8dddbbcd782bc102db9ce7acd1a210e",
+        "f1edf0b82992785ed6d0a3f6dc9f3614293dd832fd5f4442b8a672c4e1246680",
+        "94ba9f5b4185536b26687f319868008bf3b7b7dfe4e7e5cb2bf1b063634ba7b1",
+        "909c584433dfadd0786c86a7518cf2b4a037e7fc8b07ae4865c68fc4bbcbf0af",
+        "50840a1c9bcb0bdd8d755f98ce563074f52f7f142c6c33631ffafe264307cf60",
+        "e4928c2c8cf2a7f074f55da57f9fb254ad8c9a1dc29be5bc5d59e66be692626c",
+        "15ad277c25df6887647b8c0021fb75830f8e89733e9942413279e4ec24439c7f"
+      ]
+    },
+    "NE": {
+      "bank_sha256": "c92a645433f4c2add82a10b66b18ca733decad587dfab8702da7b3d128e7bf6e",
+      "distinct_frames": 9,
+      "source_frame_sha256": [
+        "f1c92018488ee572e322a6658b9dcee2d195b499006e55002b7d8d0fc05a69b4",
+        "80dd98dd4c4a84b0c760ace633d5de9468776499dcb93aa7cf15008db188d353",
+        "47c5998433ee9d0aaece0afd19a4e603169b58c3e0ed2e085f997701b89afbfd",
+        "36579a9de0f10aba5d4aefec1f026cba4e4337ce105ffbf897ed140355e1a683",
+        "65e73587cc3fc43672b18d5de3b170a8490d64a5f7954b97b3923bb266288e28",
+        "19a1909d7d5597a99d4568d8102cad4e6152664d48428586b8c1b806b9165ced",
+        "be5b36158af91de3b70b7f69fbada371c959351bc22ef0862bd9c287202dece9",
+        "c0dea0ccc5e3e498c37fc2a00a61817ffe9cd934740e7ec613e2e162df831cb0",
+        "4ba40486cb8deea8a5928d99e9b1daeb464abfd3cbe5e18329d675f661266766"
+      ]
+    },
+    "E": {
+      "bank_sha256": "32a919029cef6575bced670d138335724f9f938db9188a6583662563bbcd0cb7",
+      "distinct_frames": 9,
+      "source_frame_sha256": [
+        "6b79fedffcf4590a3e330c4c1e5260430be1e4fe590a0627ede38299d83f7de4",
+        "e0a4aaab566fa013864623ad07f0158afda6310e6fda4af7a45bd7956710ba96",
+        "dc2cd46bc9e147501d415a3aa286790718926d18b4c860238efad102638f12ef",
+        "582ae52cf66ffa259ab50e62bfc6b83fc0bcb051285d804f7e588b05d349837e",
+        "6e11ba7b80e6186c8e23b8783f843506c8bfd215c94d8deefd58f08a0122f941",
+        "cbd6a970264f8eaa5d8f2ce99681e651c202dcb2b9a91c8ad469f14c06493342",
+        "d394b44df8c65afc5c1766c0a0e2b9d1f8c254b42d6065793e00f383bc666ed8",
+        "c45dc1c79d9d2556ec5e74e933971e3fc828bf81758858fe0788ed013652a587",
+        "61c278a3618a5a0a629dc09383f1e4745316c0f80b0fa2c64f1fbd2ab00bf80a"
+      ]
+    },
+    "SE": {
+      "bank_sha256": "3a10623e30b74e6dc574a61ec3e5e906b900d933b7083e69a75edb6a2102e8dd",
+      "distinct_frames": 9,
+      "source_frame_sha256": [
+        "ba51871c8168a0a9dafc277b7e3857805b275d95800ab666988d9f1b3ef340d6",
+        "39e2ce7638fbbd5329428116382554a1db2e1aa871919b7f02ac3c1bc5bad27b",
+        "a265002b7a0f1034a3bbb70021ac755b19ccab84cff147ef567cc93a0705a482",
+        "30eebb6321835ae5ef6d69f0958c20ea7e7246dfd67abb885676c420b61ffbff",
+        "bf5534a06c44ac6488b77bb4cc5fa188b138e4f061217136cfb0e347dab4c4fa",
+        "32cb9755274584d88a63219922e06067071f0bc7af39548f2571fd8d5b61b386",
+        "41b49bb51a8bb01c0bc70016aa959a63ac7404624ba4c9e28cdf7a48f116d988",
+        "f4c0dd3fca13efcb49bf7a2c8cdcac3e0b57ed66d520beedb5151532a8d25e87",
+        "a7848b2edf4c1e5310b3d85e08ad4fd3dc1704e244b76d006907b29a3fad0c7d"
+      ]
+    },
+    "S": {
+      "bank_sha256": "79f314a9d97ab59a9fdb76bfa039dce14b744693b6eb731837e5f38535fbd4f6",
+      "distinct_frames": 9,
+      "source_frame_sha256": [
+        "99bc78f77d61f220b2aa92b4875736bcdc7ec66003edc23989fdaeeebc90b87d",
+        "4020bafc4e4217de9d1ba26317c184441895994371c4a4967835296b87de31e0",
+        "fed7654c0cbecf920ab620cf3339ce467485fef66d10c0464d9724b92700f555",
+        "dfc05c6e358ed3ecdcbb93fce9ee1c05b64caf447146da37eaf088653e87efcc",
+        "dbacc362e0276dcd93eb9434d07a267a0db205fa2faec9533bcfa7efa9b42a87",
+        "a35851382ad202b60f40669c0452f4f81114694eea5301a5808c2f795262e756",
+        "985b83a44467b7c7a265f562edc695b06394083b87f5b4b21a75f58ca3fc7a7d",
+        "77f4ebb29b13e920e5d3574fdee96d4a4c8aee0fceead905ccb3549ef174a458",
+        "49bd271f6565da7b44514a457aea95567691f61d3dde6a5dd3b2f10fced96c0f"
+      ]
+    },
+    "SW": {
+      "bank_sha256": "cff73da9886012a5317a53c41a263d0ba8596b9e35ec8516e269a6da8110cb42",
+      "distinct_frames": 9,
+      "source_frame_sha256": [
+        "e2a0eebc1366a097eb556cd36c2e9e7da2c8d1dda5c9fe3073c77c80ea7b5499",
+        "5eb294b0a9169a826c3953d33a5f8a64feda6d3733fdb00be75009f505d5c315",
+        "e3a0f1f4c1b6bc38309f61616e3263657590905878385d97f45583dddd7f1358",
+        "35eb3f70cdfa796e46aec8749ac8ad5ad0795e41c311f60bb0d8a21713cd63b0",
+        "ada690dc46aff62eb4c73086b41c21d35f64bff5ee05f673e379cd2d612a7a26",
+        "48d9e9a1903ca14985dcf5cd051a5bac64d31e0b92fcaeb9ca0d160a335cc191",
+        "40a69561ba063a1028b06645f39a2f88e161eb7a3cd3740dbc2833efdf72298f",
+        "e8c0515918a3dc2c94da8b16c4a81645b3922b6279fabc6db306c1dbe7ffaa9e",
+        "b9c469103b8530095e98dc3d24a7496e0daf14bb83048db5c23a0a7b8d5ccf13"
+      ]
+    },
+    "W": {
+      "bank_sha256": "89f325ae688d686c3724c692302c525588268f50cee5e1736dede0e6006c6c9d",
+      "distinct_frames": 9,
+      "source_frame_sha256": [
+        "8f24946f3d5f1eda726259fff3228fe6f49f54c177f1fd44f1db34780dda06d1",
+        "63b9af0dc9fc951d84281e344f253e0e5d7f1f94940c5c716aa13431614fc0c1",
+        "620345b396e69979060b8467f7b76307e327c515bff20426f440efb80369cdd0",
+        "7e03e16c0391bc393968885a92fa4228133a85148ed49c13eb5f277e4b6304ae",
+        "096c50add04ec9e4b429fbe199602df1ca1fa313a6b3f7d40ce75248dddf11bd",
+        "2a1067b5f5752ec6af523e7d3db0a560ba63aa3ba0dfc40bbc53e4002a86bc5b",
+        "a57fd7334b59926fec1fc590c369a4ede1cff02032dab666d1798fa68982dbc9",
+        "39bce831fd39ecbdbfc1ebd66989489ec7362ef85aae778d6f7352e66f632f76",
+        "2b9f9534c439ea707300cacf3889587b382bb911d562bbbbe8c8f0126edb12aa"
+      ]
+    },
+    "NW": {
+      "bank_sha256": "cfa1d7275731425140671e08a238c4c42d98c48bc4fa7a2ccc646b74f1139d09",
+      "distinct_frames": 9,
+      "source_frame_sha256": [
+        "2239406613441663f7f8a6ceef0de482d6b1fff9bddc4c5e430d1147f69a150b",
+        "d5a39e94e83988e65708366230b2340fbf2ff2dfeef6cde6510da8201c33e2bc",
+        "ae061e9716add1ed903c80f8203239ec9661e87a33161d91a78a2154a8786158",
+        "6fb45e20c6f163f657ac9624d8dbc5f43f7503f1c3394e487f19e636c4c9747a",
+        "ecb7d2b3c39558b8016866905a7bea45e6736e558af3ee0c8c13ba68bb38ca8d",
+        "198b887762781468e323f3ea83b2640faa1d4b2152b8853840399eb073373e9c",
+        "9d3ad3e7b9829f15c82450c9c8786fd80eb3cada1f48c6a38733479707f396ad",
+        "732dedc76283ec78d2d2a4d0234aa8d87d4d31e0304e1e208bccbbfd55c53616",
+        "2f30382895b2594704efb09321c92344e1191a59c3770fb0d68e553784ac572c"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\build\common.props" />
+  <PropertyGroup>
+    <ProjectGuid>{27DD7A31-631E-4E72-9A7C-7922298BA106}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TypeGameMod.Tests</RootNamespace>
+    <AssemblyName>TypeGameMod.Tests</AssemblyName>
+    <StartupObject>TestRunner</StartupObject>
+    <OutputPath>..\..\artifacts\tests\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>..\..\artifacts\obj\tests\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Compile Include="*.cs" />
+    <ProjectReference Include="..\..\src\TypeGameMod\TypeGameMod.csproj">
+      <Project>{F0A759EF-D3F4-43A7-9602-0904EF3BDDEB}</Project>
+      <Name>TypeGameMod</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

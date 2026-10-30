@@ -1,0 +1,30 @@
+Weapon sounds1.11.1
+
+AK: modified first shot of rifle.wav by Michel Baradari, blended with
+AK-47/C_28P.wav by The Free Firearm Sound Library team.
+Shotgun: modified shotgun.wav by Michel Baradari, blended with Benelli Nova
+O_21P.wav by the Free Firearm Sound Library team and SpringySpringo's pump.
+
+Game-designed shot layers:
+"Chaingun, pistol, rifle, shotgun shots" by Michel Baradari (apollo-music.de),
+submitted by qubodup, https://opengameart.org/content/chaingun-pistol-rifle-shotgun-shots
+Download: https://opengameart.org/sites/default/files/shots.7z
+License: Creative Commons Attribution3.0 (CC BY3.0)
+https://creativecommons.org/licenses/by/3.0/
+Changes: isolated shot, trimmed, EQ/compression, gain/fade, mono conversion,
+blended freely licensed raw crack/pump recordings. No author endorsement implied.
+The two resulting fire WAVs are distributed under CC BY3.0.
+
+Raw recording layers:
+The Free Firearm Sound Library: Ben Jaszczak, Brian Nelson, Kevin Heras,
+Matthew Nanney. https://opengameart.org/content/the-free-firearm-sound-library
+License: CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+
+Reload/pump recordings: SpringySpringo, "Gun reload sounds",
+https://opengameart.org/content/gun-reload-sounds
+License: CC0 1.0. AK/shotgun reload WAVs are unchanged from1.11.0.
+
+All recordings were openly licensed by their creators. These are not extracted
+Hotline Miami or Counter-Strike files. SOURCES.json records exact source hashes,
+ffmpeg edits and before/after measurements. The game-style layering is intended
+to sound sharper and heavier than the quiet field recordings in1.11.0.

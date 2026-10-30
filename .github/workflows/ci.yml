@@ -1,0 +1,30 @@
+name: Build and test
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-2022
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Prepare Framework reference assemblies
+        run: nuget install Microsoft.NETFramework.ReferenceAssemblies.net40 -Version 1.0.3 -OutputDirectory "$env:RUNNER_TEMP/typegame-references" -NonInteractive
+      - name: Build and run offline tests
+        run: ./build.ps1 -Test -ReferenceAssembliesPath "$env:RUNNER_TEMP/typegame-references/Microsoft.NETFramework.ReferenceAssemblies.net40.1.0.3/build"
+      - name: Package mod-only build
+        run: ./tools/package.ps1 -SkipBuild -NoSource
+      - uses: actions/upload-artifact@v7
+        with:
+          name: TypeGameWASD-mod-win-x86
+          path: |
+            artifacts/packages/*.zip
+            artifacts/packages/*.sha256
+          if-no-files-found: error

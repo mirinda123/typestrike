@@ -1,0 +1,45 @@
+{
+  "version": "1.10.2",
+  "art_tool": "built-in image_gen",
+  "final_pixel_palette": 64,
+  "position_native_800x600": [
+    740,
+    448
+  ],
+  "size": [
+    48,
+    48
+  ],
+  "states_per_role": 65,
+  "wipe": "first N rows dim, top to bottom over3s",
+  "dim_luminance_fraction": 0.28,
+  "icons": {
+    "PoliceShieldIcon": {
+      "file": "assets/PoliceShieldIcon.png",
+      "sha256": "0762431775e4e12a7e9e359a64bc2838085f3001d894ed53c6d0e0df0ead4e7d",
+      "size": [
+        64,
+        64
+      ],
+      "colors": 64,
+      "generated_source": "assets/generated-icons/PoliceShieldIcon-source.png"
+    },
+    "ThiefBlinkIcon": {
+      "file": "assets/ThiefBlinkIcon.png",
+      "sha256": "fa717d32d20e0e4104b872164b139daa1f12455a6b5793b04526b4a4f69f6349",
+      "size": [
+        64,
+        64
+      ],
+      "colors": 63,
+      "generated_source": "assets/generated-icons/ThiefBlinkIcon-source.png"
+    }
+  },
+  "prompts": "assets/skill-icon-prompts.json",
+  "source_png_size": [
+    64,
+    64
+  ],
+  "runtime_scaling": "one nearest-neighbour sample from accepted64x64 source",
+  "frame_bytes": 9216
+}

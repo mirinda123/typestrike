@@ -1,0 +1,30 @@
+{
+  "version": "1.10.2",
+  "source": "source/HealthHud.cs",
+  "method": "original code-native9x9 glyphs at integer2x, transparent horizontal spans",
+  "inspiration": "user requested Minecraft-like pixel hearts",
+  "maximum_hearts": 3,
+  "damage_per_hit": 1,
+  "invulnerability_ms": 500,
+  "police_row_y": 12,
+  "thief_row_y": 38,
+  "badge_x": 12,
+  "heart_x": [
+    36,
+    58,
+    80
+  ],
+  "heart_grid_px": [
+    18,
+    18
+  ],
+  "full": "red",
+  "empty": "dark gray",
+  "invulnerability_indicator": "brief white/pink heart flash",
+  "panel_background": "transparent",
+  "states": 16,
+  "state_stride_bytes": 4096,
+  "new_GDI_objects": 0,
+  "bank_offset": "0x4b0000",
+  "wire_version": 3
+}

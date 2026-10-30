@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.cs text eol=lf
+*.py text eol=lf
+*.asm text eol=lf
+*.md text eol=lf
+*.ps1 text eol=lf
+*.bin binary
+*.dib binary
+*.png binary
+*.wav binary
+*.m4a binary

@@ -1,0 +1,447 @@
+{
+  "format": "ID L1 source-pixel coordinates v1",
+  "tool": "Existing evaluated sprite maps with offline 2D seam repair",
+  "cell": [
+    92,
+    99
+  ],
+  "frames": 18,
+  "fps": 15,
+  "baker_sha256": "9affc1311b8dc6676ca9c9b49248704a7f498d87700a37f9530e2630071852cd",
+  "layer_overlap_pixels": 2,
+  "body_policy": "complete native sequences or one continuous body mesh; no torso strips",
+  "new_articulated_arm_cases": 28,
+  "accepted_southeast_samples_unchanged": 4,
+  "native_body_frame_coherence": true,
+  "seam_repair_sha256": "5921135e0b17b1e24fc29e9066a6c19c54c27cd2aac80f4aa34c7a0771358b11",
+  "seam_repairs": [
+    {
+      "case": "Police-1-5",
+      "changed_pixels_per_frame": [
+        115,
+        106,
+        122,
+        119,
+        106,
+        105,
+        93,
+        98,
+        105,
+        115,
+        120,
+        133,
+        137,
+        134,
+        131,
+        126,
+        122,
+        119
+      ]
+    },
+    {
+      "case": "Police-2-5",
+      "changed_pixels_per_frame": [
+        63,
+        59,
+        68,
+        68,
+        65,
+        64,
+        43,
+        44,
+        58,
+        63,
+        82,
+        108,
+        120,
+        122,
+        117,
+        97,
+        85,
+        81
+      ]
+    },
+    {
+      "case": "Thief-1-5",
+      "changed_pixels_per_frame": [
+        310,
+        301,
+        332,
+        328,
+        331,
+        339,
+        351,
+        358,
+        325,
+        327,
+        309,
+        301,
+        330,
+        332,
+        323,
+        321,
+        300,
+        307
+      ],
+      "hand_cuff_contacts_per_frame": [
+        4,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        6,
+        4,
+        4,
+        6,
+        5,
+        5
+      ]
+    },
+    {
+      "case": "Thief-2-5",
+      "changed_pixels_per_frame": [
+        301,
+        274,
+        297,
+        287,
+        307,
+        314,
+        311,
+        323,
+        299,
+        318,
+        285,
+        302,
+        305,
+        304,
+        295,
+        296,
+        301,
+        284
+      ],
+      "hand_cuff_contacts_per_frame": [
+        5,
+        5,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        4,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "forearm_authoring_sha256": "9e53aecb083a408676100b63ff108b4747226709350c65eccc108c7775758114",
+  "cases": [
+    {
+      "name": "Police-0-0",
+      "frames": 18,
+      "unique": 7,
+      "source_sha256": "aba05cc3d5d1ef290e3175d6c300730794ad333dad25d40b530c930e89b60883"
+    },
+    {
+      "name": "Police-0-2",
+      "frames": 18,
+      "unique": 8,
+      "source_sha256": "9472d954bafb53ad21c6a88a0768c66c19c085084efc31fe26bb6bafe8d15768"
+    },
+    {
+      "name": "Police-0-4",
+      "frames": 18,
+      "unique": 7,
+      "source_sha256": "efd85d19c6e1213d287b8ca16282bc48a35a5d9cbe8406b16d83dec9e1d5496f"
+    },
+    {
+      "name": "Police-0-6",
+      "frames": 18,
+      "unique": 8,
+      "source_sha256": "d195ea35961fed9f25558532c99a9f539a6a57ed470cfa5d2c75dc2e2bb8b807"
+    },
+    {
+      "name": "Police-1-0",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "dca04fb5f9aa512ead4ff2e3609b4b8741f4d2a9cf5ebd48e9f717709e720397"
+    },
+    {
+      "name": "Police-1-1",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "62b3481dc3f077e9562140679ec47f7928268536f3c7cee4bb2e320f797013f8"
+    },
+    {
+      "name": "Police-1-2",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "8dae9e957c20a4a8419d75a01a9ab765c871e0c6b0b01ece39392959881fc6f7"
+    },
+    {
+      "name": "Police-1-3",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "cf197a8f7c69670cfa5f38e3c2748c5f7325076d13004b60567cc3d8598f1f04"
+    },
+    {
+      "name": "Police-1-4",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "ce021e81ad8b618a21a2947e45ca619924f845c2a4f9c1cab72c4ac7b9bce49f"
+    },
+    {
+      "name": "Police-1-5",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "4e6e611985ffa27222231da89090d8f80a79631a8dc5858a631c10f037b95d6f"
+    },
+    {
+      "name": "Police-1-6",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "73f0f0aceab7e4d3860c3d6beaaa9220f56716e96ad6a60938da8319db8b2c9f"
+    },
+    {
+      "name": "Police-1-7",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "17fbe2d5ea8fe934d2eb114fe9dab4c02772b5d3b042fd160399527829f37c10"
+    },
+    {
+      "name": "Police-2-0",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "95e09f5ea59787b0034c7614f86ff30b52145eb13997f51f243d7e3dddcb327a"
+    },
+    {
+      "name": "Police-2-1",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "01b97f9aba8d9716456e1a7ea62bbdaf5ddded7c4190423257abd1bd59ea8115"
+    },
+    {
+      "name": "Police-2-2",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "62dece235a0a6cbaf1a6207664cf56e4e10608ed5028c719cd08982efcd9053a"
+    },
+    {
+      "name": "Police-2-3",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "ad6c02f76fc8648e21c2ac8d56d9b7839f96fd9f1fc4c8cf59c1f205ce715213"
+    },
+    {
+      "name": "Police-2-4",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "81c2203f2ee778d3e659d31e1e8fa3f4d7972359a5724e923f7f72791f468a05"
+    },
+    {
+      "name": "Police-2-5",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "0dc87018c1da5b5e8222d433d1a79c8bcbedd4b22d3cbf7fd75dbc707b459b7a"
+    },
+    {
+      "name": "Police-2-6",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "fe19fe222b5ba54043546cb9678562aa0416d5b9afdff431e256e691b2691692"
+    },
+    {
+      "name": "Police-2-7",
+      "frames": 18,
+      "unique": 17,
+      "source_sha256": "614a9b11646761b67bd5c77738054889aea073883e2f026ddd9d2bf409d8c2ff"
+    },
+    {
+      "name": "Police-3-0",
+      "frames": 18,
+      "unique": 8,
+      "source_sha256": "c2bd307adfe4531c470ef5018f2760dbabaf4ec85d0981686622010ee392005b"
+    },
+    {
+      "name": "Police-3-1",
+      "frames": 18,
+      "unique": 8,
+      "source_sha256": "decd9efb5657f8f6c4c68b71023512c8ad8ebb285cbcee845fd9b6d026de9cba"
+    },
+    {
+      "name": "Police-3-2",
+      "frames": 18,
+      "unique": 7,
+      "source_sha256": "8b32c540af00f62f3044e1742cb7ae3c2340afcc52b4274a1ff06b5be734044c"
+    },
+    {
+      "name": "Police-3-3",
+      "frames": 18,
+      "unique": 7,
+      "source_sha256": "8cdcc347de40d4d2ef12e150d0d06a826dc0b539445495b333e17f683d0a74d7"
+    },
+    {
+      "name": "Police-3-4",
+      "frames": 18,
+      "unique": 7,
+      "source_sha256": "9a5cad16868d745b37cc085933ceaa14c33d98a5c382f2dcd302820bc4167a15"
+    },
+    {
+      "name": "Police-3-5",
+      "frames": 18,
+      "unique": 9,
+      "source_sha256": "1f8b7de6b167bdef751784768803ab303dc641fb74f8e87964e12a868b25095d"
+    },
+    {
+      "name": "Police-3-6",
+      "frames": 18,
+      "unique": 9,
+      "source_sha256": "efe2713a17e510ca972d71ea451d903c3149b137c2039e693673e10181347b69"
+    },
+    {
+      "name": "Police-3-7",
+      "frames": 18,
+      "unique": 9,
+      "source_sha256": "66a154fd101d857b03f24321eb1f993d42aa661e259942259124178041f08849"
+    },
+    {
+      "name": "Thief-0-0",
+      "frames": 18,
+      "unique": 16,
+      "source_sha256": "1132de4168867e409d722d63d0cdf7d8c30b3df08f2cfe1ae66dab0c3b6f5f41"
+    },
+    {
+      "name": "Thief-0-2",
+      "frames": 18,
+      "unique": 16,
+      "source_sha256": "60ea15b332a3226823b83738b84d741e7d0b1d7631202a045f362cb931ecfcd3"
+    },
+    {
+      "name": "Thief-0-4",
+      "frames": 18,
+      "unique": 16,
+      "source_sha256": "2ceb289352c4ca62da90a8e71588977f299561672e26a9b1d15c3952dc9b7327"
+    },
+    {
+      "name": "Thief-0-6",
+      "frames": 18,
+      "unique": 14,
+      "source_sha256": "4a42fb9d05a5a4e0a4b97d16cbd56da67d6a61d52a58451b0d87737cbc0a1e79"
+    },
+    {
+      "name": "Thief-1-0",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "f5f98480920d4a01802d32052bd64fc4207b40fc547d20f9fbf04dfe2463e142"
+    },
+    {
+      "name": "Thief-1-1",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "907d8339d89d7d21631e55568c0a687d54e02ff91cbf6a4c57949e8417b14481"
+    },
+    {
+      "name": "Thief-1-2",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "ee193d0b28042249bc76f458307a4381b049d7856136d5baebed09553e91ecb6"
+    },
+    {
+      "name": "Thief-1-3",
+      "frames": 18,
+      "unique": 15,
+      "source_sha256": "484dc21b199027b6168b92020b1de76370da9b9175f39b8d3c65550bb27a858f"
+    },
+    {
+      "name": "Thief-1-4",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "076397ed73f5da64b6e367f48e1222ae58fb90a6ad329cec69a8914e12a31e55"
+    },
+    {
+      "name": "Thief-1-5",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "f0b7839bfb2c12677260717cfb2c4d7b83fafac51de19b84514edd2532e69763"
+    },
+    {
+      "name": "Thief-1-6",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "3ee969856610bb183f61275d07aac8bd8a3019737eafa57dde09c3b7f1e472c0"
+    },
+    {
+      "name": "Thief-1-7",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "6e9c3921a8ff0e0e71f9aae4bd1587cd99287b1b6af2dad323a40a6f9fdbc8d2"
+    },
+    {
+      "name": "Thief-2-0",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "233d958cdd1ccf9be1ed6db880c70cc03e87022178ff2309c7ca00378666033a"
+    },
+    {
+      "name": "Thief-2-1",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "b79c7c901a534b3c25e3f5ec868b4882055075854b3b4ca6a675e81a55407d32"
+    },
+    {
+      "name": "Thief-2-2",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "26b64268c4214892ddb27cfe6d1a1dcec83f0305c537edb7017fe8a327e63360"
+    },
+    {
+      "name": "Thief-2-3",
+      "frames": 18,
+      "unique": 15,
+      "source_sha256": "eb82e9405f75b66b92fab029e2223b370aefd56f60a36b2dbadeb10e530ff127"
+    },
+    {
+      "name": "Thief-2-4",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "afe2b356fe09366554e6a31de8094ba4ec823df189674be9851bc5789cd4fb9f"
+    },
+    {
+      "name": "Thief-2-5",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "218bac5203557c4f864775862f5dc9400875ad7d125bb6ebf44aa82be6628f61"
+    },
+    {
+      "name": "Thief-2-6",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "3902b4511d09b351c3e8d5de8b27cceb9546d1d359d8791c023cb2514ac52af0"
+    },
+    {
+      "name": "Thief-2-7",
+      "frames": 18,
+      "unique": 18,
+      "source_sha256": "040f4a0c01df5ea0423b0aea8e8bda8a9040335e439c5d86aa60fe685456d11f"
+    }
+  ],
+  "native_unarmed_diagonals": 8,
+  "original_pixels_in_archive": false,
+  "raw_bytes": 31477656,
+  "gzip_bytes": 3680863,
+  "sha256": "deb35e15d1b942c7e92c6e90d894c1e458535706c2b5156d6c2e7d9b3e1156f3"
+}

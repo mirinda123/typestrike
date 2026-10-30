@@ -1,0 +1,86 @@
+{
+  "version": "1.11.0",
+  "art_tool": "built-in image_gen",
+  "prompts": "assets/generated-weapons/PROMPTS.json",
+  "style": "late1990s/early2000s pre-rendered coloured game sprites; loose diagonal GTA-like HUD layout",
+  "transparent_background": true,
+  "frame_or_panel": false,
+  "size_px": [
+    64,
+    48
+  ],
+  "position_native_800x600": [
+    648,
+    12
+  ],
+  "state_stride_bytes": 131072,
+  "bank_offsets": [
+    "0x4c0000",
+    "0x520000"
+  ],
+  "rectangle_counts": [
+    1130,
+    537,
+    435
+  ],
+  "new_GDI_objects": 0,
+  "pipeline": [
+    "um sprite hard-alpha --thresh128",
+    "um sprite pixelate --size64x48 --colors96"
+  ],
+  "runtime_resizing": false,
+  "assets": [
+    {
+      "file": "assets/WeaponUnarmed.png",
+      "sha256": "c59856524acf941f662d5a25b1b3ae18fe3e74951ef386d36dc7ff5b1f1cb5dc",
+      "source": "assets/generated-weapons/WeaponUnarmed-source.png",
+      "source_sha256": "cf809eae5921e196e6efeae6f391d3db56a63f9bd3175fc2dd2372b56449adbd",
+      "opaque_pixels": 1251,
+      "clear_pixels": 1821,
+      "colors": 94,
+      "bbox": [
+        9,
+        0,
+        54,
+        48
+      ]
+    },
+    {
+      "file": "assets/WeaponAK47.png",
+      "sha256": "eb290c924603ebd78c13c92add1c4a1b5bf059998bc3ae77eaed9294a281c5ca",
+      "source": "assets/generated-weapons/WeaponAK47-source.png",
+      "source_sha256": "61375a875b0d90e973eadbfdf9a527078655781b3b4da7fe98b3a0693db32cc9",
+      "opaque_pixels": 592,
+      "clear_pixels": 2480,
+      "colors": 93,
+      "bbox": [
+        0,
+        5,
+        64,
+        42
+      ]
+    },
+    {
+      "file": "assets/WeaponShotgun.png",
+      "sha256": "dc93166ae9fa45e01b9ba83227ad801ca155cd73e0152517c16aea928936be07",
+      "source": "assets/generated-weapons/WeaponShotgun-source.png",
+      "source_sha256": "d42c851f8566eef835ddc3ddaa6924c58769e258520ac545c8c056df422da4de",
+      "opaque_pixels": 481,
+      "clear_pixels": 2591,
+      "colors": 90,
+      "bbox": [
+        0,
+        5,
+        64,
+        42
+      ]
+    }
+  ],
+  "wheel_input_unchanged": true,
+  "wire_version": 4,
+  "ammo_position": [
+    724,
+    17
+  ],
+  "asset_allocation_bytes": 5701632
+}

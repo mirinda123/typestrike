@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen",
+  "style": "User-requested1990s pixel art",
+  "date": "2026-10-16",
+  "final_size": [
+    64,
+    64
+  ],
+  "palette_colors": 64,
+  "prompts": [
+    {
+      "key": "police-shield",
+      "prompt": "Create a TRUE 1990s PC GAME PIXEL ART skill icon, not a painted HD illustration. Subject: police shield ability. Draw directly on a logical 64 by 64 pixel square grid, then present that exact grid enlarged with NEAREST NEIGHBOUR only. Every contour must be visibly stair-stepped square pixels. Use a compact 24 to 32 colour palette, a one-pixel dark outline and only two or three flat shading tones per material, tiny deliberate dithering if needed. NO antialiasing, soft gradients, blur, brushed texture, photoreal lighting, volumetric glow or 3D rendering. The icon should look native to a late-1990s low-resolution isometric Chinese PC game. Center a single large upright blue police riot shield with a silver grey rim and one very simple gold pixel-star badge, with one small yellow pixel ricochet spark on the upper right. Shield is immediately recognizable at actual 64x64. Dark navy flat pixel background. A simple squared gunmetal/silver grey beveled UI border, 3 logical pixels thick, one-pixel highlights and dark corner pixels, frame flush with all four image edges. Solid opaque square, no outside margin. Restrained, practical classic game HUD art. Absolutely no writing, letters, numbers, logos, watermark, second panel or UI mockup. One icon only, fully bright charged version."
+    },
+    {
+      "key": "thief-blink",
+      "prompt": "Create a TRUE 1990s PC GAME PIXEL ART skill icon, not a painted HD illustration. Subject: thief instant blink ability. Draw directly on a logical 64 by 64 pixel square grid, then present that exact grid enlarged with NEAREST NEIGHBOUR only. Every contour must be visibly stair-stepped square pixels. Use a compact 24 to 32 colour palette, a one-pixel dark outline and only two or three flat shading tones per material, tiny deliberate dithering if needed. NO antialiasing, soft gradients, blur, brushed texture, photoreal lighting, volumetric glow or 3D rendering. The icon should look native to a late-1990s low-resolution isometric Chinese PC game. Center a lean adult thief silhouette in an olive cap and olive jacket, with a small purple scarf, instantly dashing toward the upper right; two simplified cyan pixel ghost silhouettes trail diagonally toward the lower left. Ordinary slender adult proportions, tiny or hidden face, no cartoon eyes, no huge head. Bold simple forms so the blink motion reads immediately at actual 64x64. Dark navy flat pixel background. A simple squared gunmetal/silver grey beveled UI border, 3 logical pixels thick, one-pixel highlights and dark corner pixels, frame flush with all four image edges. Solid opaque square, no outside margin. Restrained, practical classic game HUD art. Absolutely no writing, letters, numbers, logos, watermark, second panel or UI mockup. One icon only, fully bright charged version."
+    }
+  ],
+  "conversion": "um sprite pixelate source.png output.png --size 64x64 --colors 64 (one conversion from generation original)",
+  "source_files": [
+    "generated-icons/PoliceShieldIcon-source.png",
+    "generated-icons/ThiefBlinkIcon-source.png"
+  ]
+}

@@ -1,0 +1,49 @@
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\build\common.props" />
+  <PropertyGroup>
+    <ProjectGuid>{F0A759EF-D3F4-43A7-9602-0904EF3BDDEB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TypeGameMod</RootNamespace>
+    <AssemblyName>TypeGameWASD</AssemblyName>
+    <StartupObject>TypeGameMod.Program</StartupObject>
+    <OutputPath>..\..\artifacts\bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>..\..\artifacts\obj\app\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Compile Include="**\*.cs" Exclude="obj\**;bin\**" />
+    <EmbeddedResource Include="..\..\assets\*.dib;..\..\assets\*.png">
+      <LogicalName>TypeGameWASD.%(Filename)</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\assets\IdleMaps.gz">
+      <LogicalName>TypeGameWASD.IdleMaps</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\assets\TypingPrompt.gz">
+      <LogicalName>TypeGameWASD.TypingPrompt</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\assets\MapCover.gz">
+      <LogicalName>TypeGameWASD.MapCover</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\assets\MovementMap.gz">
+      <LogicalName>TypeGameWASD.MovementMap</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\native\generated\payload.bin">
+      <LogicalName>TypeGameMod.Native.Code</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\native\generated\relocations.bin">
+      <LogicalName>TypeGameMod.Native.Relocations</LogicalName>
+    </EmbeddedResource>
+    <Content Include="..\..\audio\**\*">
+      <Link>audio\%(RecursiveDir)%(Filename)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\compat\**\*">
+      <Link>compat\%(RecursiveDir)%(Filename)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

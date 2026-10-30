@@ -1,0 +1,138 @@
+{
+  "version": "1.11.1",
+  "fire_effects": [
+    {
+      "file": "ak47-fire.wav",
+      "sha256": "811fa9ce3a9e29f850b41f70e8e3cc8e23a0123500a8eb76c57521ee3ee3e27e",
+      "bytes": 30066,
+      "license": "CC-BY-3.0 (Michel Baradari layers), CC0-1.0 (recorded layers)",
+      "inputs": [
+        {
+          "file": "punchy-audio-tests\\sound-sources\\shots\\rifle.wav",
+          "sha256": "6324903225b5637f1187fd93cfbcb0f359394b8c1f7881273ffe740d51a5b98f"
+        },
+        {
+          "file": "ammo-tests\\sound-sources\\Prepared SFX Library\\AK-47\\C_28P.wav",
+          "sha256": "e0934c1d79192d2216db62fdf6ab57bf9d5d585267af367a1cfb21f0972a537d"
+        }
+      ],
+      "ffmpeg_filter": "[0:a]atrim=0:0.28,asetpts=PTS-STARTPTS,highpass=f=70,equalizer=f=2600:t=q:w=0.9:g=3,acompressor=threshold=0.25:ratio=2:attack=0.2:release=55:makeup=1.25,volume=0.85[g];[1:a]atrim=0.609179:0.679179,asetpts=PTS-STARTPTS,highpass=f=200,volume=0.16[c];[g][c]amix=inputs=2:duration=longest:normalize=0,alimiter=limit=0.9:level=false,afade=t=out:st=0.20:d=0.08,apad=pad_dur=0.06,atrim=duration=0.34[o]",
+      "old_stats": {
+        "peak": 0.2615966796875,
+        "rms": 0.020642179995775223,
+        "first80ms_rms": 0.04702436178922653
+      },
+      "new_stats": {
+        "peak": 0.576629638671875,
+        "rms": 0.18710598349571228,
+        "first80ms_rms": 0.26438337564468384
+      },
+      "first80ms_gain_db": 14.998225212097168
+    },
+    {
+      "file": "shotgun-fire.wav",
+      "sha256": "d053b98d7e04c7740046fbfbab1b51d6526d2b51f737fcb0b673393a041e470b",
+      "bytes": 58290,
+      "license": "CC-BY-3.0 (Michel Baradari layers), CC0-1.0 (recorded layers)",
+      "inputs": [
+        {
+          "file": "punchy-audio-tests\\sound-sources\\shots\\shotgun.wav",
+          "sha256": "cd260e3585d718da342365d9d1050b1ee4575b4d031207ed41496593abd90861"
+        },
+        {
+          "file": "ammo-tests\\sound-sources\\shotguncock_0.wav",
+          "sha256": "33e007321ba83301c861aef573f2c40b70bc62f8f24c0164877e6dd123e24371"
+        },
+        {
+          "file": "ammo-tests\\sound-sources\\Prepared SFX Library\\Nova\\O_21P.wav",
+          "sha256": "5661d0625e4634f19e6e316c13693b80c8e28cd9f716cf9c75c465153ae40815"
+        }
+      ],
+      "ffmpeg_filter": "[0:a]atrim=0:0.46,asetpts=PTS-STARTPTS,highpass=f=55,bass=g=3:f=140:w=0.8,equalizer=f=2200:t=q:w=0.8:g=2,acompressor=threshold=0.25:ratio=2:attack=0.2:release=85:makeup=1.25,volume=0.95,afade=t=out:st=0.32:d=0.14[g];[1:a]asetpts=PTS-STARTPTS,volume=0.18,adelay=180:all=1[p];[2:a]atrim=0.429156:0.499156,asetpts=PTS-STARTPTS,volume=0.12[c];[g][p][c]amix=inputs=3:duration=longest:normalize=0,alimiter=limit=0.9:level=false,afade=t=out:st=0.57:d=0.09,apad=pad_dur=0.06,atrim=duration=0.66[o]",
+      "old_stats": {
+        "peak": 0.3624267578125,
+        "rms": 0.01676163263618946,
+        "first80ms_rms": 0.05014605075120926
+      },
+      "new_stats": {
+        "peak": 0.698974609375,
+        "rms": 0.20320816338062286,
+        "first80ms_rms": 0.3210226893424988
+      },
+      "first80ms_gain_db": 16.125980377197266
+    }
+  ],
+  "unchanged_reload_effects": [
+    {
+      "file": "ak47-reload.wav",
+      "source": "assaultriflereload1_0.wav",
+      "source_sha256": "efb2d724d634eabe6ba8d3065686abca848bb7497d4d43a5e4aed5e5ea23016f",
+      "start_seconds": 0,
+      "duration_seconds": 1.555736961451247,
+      "gain": 0.16263456245627791,
+      "sha256": "41f3abe6be22121afdc4922675fc993fe9be9b21d988a1c8372aac85ef7c92dc",
+      "bytes": 137294,
+      "command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-y",
+        "-ss",
+        "0.000000",
+        "-i",
+        "C:\\Users\\Admin\\Documents\\Codex\\2026-10-05\\c-users-admin-appdata-roaming-typeeasygame-5\\work\\ammo-tests\\sound-sources\\assaultriflereload1_0.wav",
+        "-t",
+        "1.555737",
+        "-af",
+        "highpass=f=65,volume=0.16263456,afade=t=out:st=1.485737:d=0.070000",
+        "-ac",
+        "1",
+        "-ar",
+        "44100",
+        "-c:a",
+        "pcm_s16le",
+        "-map_metadata",
+        "-1",
+        "C:\\Users\\Admin\\Documents\\Codex\\2026-10-05\\c-users-admin-appdata-roaming-typeeasygame-5\\work\\ammo-mod\\audio\\weapons\\ak47-reload.wav"
+      ]
+    },
+    {
+      "file": "shotgun-reload.wav",
+      "source": "shotguncock_0.wav",
+      "source_sha256": "33e007321ba83301c861aef573f2c40b70bc62f8f24c0164877e6dd123e24371",
+      "start_seconds": 0,
+      "duration_seconds": 0.47383219954648526,
+      "gain": 0.16263456245627791,
+      "sha256": "283103aedfa16f06904317735f54f83f650409148e74e928beaabdfb80ea91d3",
+      "bytes": 41870,
+      "command": [
+        "ffmpeg",
+        "-v",
+        "error",
+        "-y",
+        "-ss",
+        "0.000000",
+        "-i",
+        "C:\\Users\\Admin\\Documents\\Codex\\2026-10-05\\c-users-admin-appdata-roaming-typeeasygame-5\\work\\ammo-tests\\sound-sources\\shotguncock_0.wav",
+        "-t",
+        "0.473832",
+        "-af",
+        "highpass=f=65,volume=0.16263456,afade=t=out:st=0.403832:d=0.070000",
+        "-ac",
+        "1",
+        "-ar",
+        "44100",
+        "-c:a",
+        "pcm_s16le",
+        "-map_metadata",
+        "-1",
+        "C:\\Users\\Admin\\Documents\\Codex\\2026-10-05\\c-users-admin-appdata-roaming-typeeasygame-5\\work\\ammo-mod\\audio\\weapons\\shotgun-reload.wav"
+      ]
+    }
+  ],
+  "source_pages": [
+    "https://opengameart.org/content/chaingun-pistol-rifle-shotgun-shots",
+    "https://opengameart.org/content/the-free-firearm-sound-library",
+    "https://opengameart.org/content/gun-reload-sounds"
+  ]
+}

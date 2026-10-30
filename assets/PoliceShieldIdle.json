@@ -1,0 +1,128 @@
+{
+  "source": "Approved thicker riot-shield police idle, whole model rendered from eight sprite headings",
+  "source_project": "Police-Shield-Thicker-Eight-Directions/Police-thicker-shield-eight-direction-idle.blend",
+  "source_project_sha256": "665e88c7fe8f5c400098ad4be15ebf524b738b659c35bb72f5278f9402709bfd",
+  "frame_size": [
+    92,
+    99
+  ],
+  "frames": 9,
+  "sheet_cells": 18,
+  "spare_cells": "Repeat nine poses; runtime uses cells 0..8",
+  "cycle_seconds": 0.5179694999969797,
+  "resampling": "none; approved RGBA pixels preserved",
+  "directions": {
+    "N": {
+      "bank_sha256": "e780e9063bd6ca48bc601159d5da6f2e048d8f9282757b23e69bc2b7528c646f",
+      "source_frame_sha256": [
+        "5263cb468de0e02c75a382baaa30aa5632c1c10612d46b9c018de8b35ccc96bf",
+        "6c6885bab159d2cbc90b2ba6bcc4ff6d724878d8df1c25fbd9e16eeb22f69a22",
+        "0f89743b9b694fec6a422eb27afb5bb514aa3906f41ed3c569c1db4af9680a2a",
+        "75f540bd4455ac3bd4aae2e82dfb2d96d2b6f7c40161bee0f3b916cff22dea29",
+        "4bd58e22a26b9ea744968d71064f7e4299269b15d9e1dc669f6b591ab6cb27d2",
+        "cb906c93864d1195e1dc1e835ec1eed5fc75cdead19bbb8b9122b588ee1c1250",
+        "6cfe9f9b2aa9ef90cfed523fec4c83bc4cb27f16ac06808a11f5e5fe2adf2b2c",
+        "0c11d455f32a1b797c9a7212b72634c6ffb81d89d96bb002ab823904df0a98bd",
+        "847bf5fe2c3742e698dcc9f7b5f2b6659c334885221d851ee9ab8a8241c120a8"
+      ]
+    },
+    "NE": {
+      "bank_sha256": "635184842a06a43a2db5b6fef1e3fd7c40cfcf6829277484c65c622abd570f62",
+      "source_frame_sha256": [
+        "eb72a6873f8c82de1822c9a2587787e641287d9fe00d70fea28eb12831b2d239",
+        "5cdf13e56fb0338fc86ea29ee24e8949561b7186bc19266e0f8f6cfb95243f3f",
+        "f16d041680169d3edf98769293aaa10f4cbf3e826e8333eeeb9710f8763a082a",
+        "948c7d638dc2915a99f920010000dc661fa7d4d86c6f423878d44dbed2ac7bac",
+        "7dc6fe5e043449b17d93da2d467c224e28aa40b85b1d3cc133102aec2cfbaa1c",
+        "77c4206b0d96704a258b09d3275e04ac3aa7cca2647265ab9d02718f2ee9715b",
+        "621b329af27970f99b2babb72a6f31ddf338336726e20e00046cc480b5e3283e",
+        "5979dd14ee9715b8f3da38c54278138dfac880f5d7b83ffbf95617aea0f68d55",
+        "6208eb54ebfbb0e5b9acaeecc9e6b78f3c80d7e43c8f8fc8a41897203475db70"
+      ]
+    },
+    "E": {
+      "bank_sha256": "f168ebe8552add97516ed1053d18c207151691a42371cbfa135c7e69cf71f4ac",
+      "source_frame_sha256": [
+        "3e330ccac78e5bc8ecb2f1f096560115ef6caaee39ed56a1bf7c81498313de33",
+        "4394481edeb497295d3a1f1234ff1e13b473b3f0e1bfc1be9f01cef69bab75c1",
+        "bcf0fdd398d08acc95ad5724c89f39c818d7324d0cebeb5feec4601caa4010e9",
+        "5670dc1d52288a5e8b06de6dce8763135c6d4de8ad28c5e8255939c639855c42",
+        "91ed79595e349a39194fe910e6361653802b83fcc230db9196b6476739917b64",
+        "09bf2ba5ec43e50dba4b32904ec85406238a67e3ae7f126a316be327ecc91b1a",
+        "3641e63f678873f310545759ac03107a92e3c3fd9089a27b9a1764b7e09b8a2e",
+        "904b45d197779b820096178451c39f05e8f719ddf6f7cb715e6b87281dc15447",
+        "d5b8f55830d01132f5336641301bd66a38e3cd06476356b714d4ba2d1b43603d"
+      ]
+    },
+    "SE": {
+      "bank_sha256": "9815b3772273684c1be20839f08e19605caf25e9e5fa68ffaea217e3447d288c",
+      "source_frame_sha256": [
+        "51039b7f74ad68df882dd5470be55e35b9385262f44b7ef1e0aa362fe420d2c0",
+        "17b344f0ac6ad172411aae5c24dd490d202af6c53f979a891c0bc41f730a46a8",
+        "2ce0cfe6d975afe6afab95fc876e7f180b12eca43fc0e33e9d8fe685c6f46023",
+        "93a7966d0a5456ecc6499a05a043bcea69a41de7dfa0f4dc30f5aa1fc59a4225",
+        "91e36ac8b348def47351042633db61cf924e23a6dfb185cd3e70f0f50a65ac64",
+        "33ad81ba5fd1ce7d52afdfdbdde4edff33cc537f3b3ab60e50c011772005b166",
+        "bb13cc1bda579eb1b3ebc4a74c6a44a74ab483e66b6ce516575ee9f04d13bf08",
+        "ee24ea794ee3047f36564ea9aa91fb8cadd374941f8127a4015b603b5dded6d8",
+        "11d3d75bee1cf08f5b346ee00a00b184cf08d24a612aca76e2440d7d5eaa44d4"
+      ]
+    },
+    "S": {
+      "bank_sha256": "e898d5d75762bec5e6fddd4786089e1fe8e5aa30e111f897acf6dcf1028547f5",
+      "source_frame_sha256": [
+        "8a25fee9445a79ff6fb68b1750b6a9f79b03e3e3274d9e37a452782364f3a700",
+        "b88653eec42662febce444ba5d9764afe67b031ca4cdec904884d3047fae3539",
+        "db0d626521c4d6758bffd97cde5c8cbcba666d2896d58ee42ca4ce5f3621be4b",
+        "e4caf31a2aa074f45ed3962a5084e2ad6a2c8e071667cd2ea317fd07fbbb1fa6",
+        "5a1f49e53f9a5e4cebedbbb3017fb42ed0372ad923cc84d83a141c2a603ecdae",
+        "6f23533e0d12254ac81ad8fc3b7f09662202ec188bb581c13cac09a6ad234661",
+        "1279efae856ac552c4e03b8bf9469bbc6515e773f838a1b8e5a37353539a1ec1",
+        "eabd6aeb5bb2a5436a917f6c794f7b3826f10346b40c62e415fb5f274ed15bce",
+        "bae6668b7ca085219329ee60562cef598d10cb425bc4b658ebda5b77991064ab"
+      ]
+    },
+    "SW": {
+      "bank_sha256": "b9c91f79f3f43c6e6e4dcccc69a7b48b6954f393a23b8882e04f71f6c5299643",
+      "source_frame_sha256": [
+        "4d74fe92761b74b6de901986752c0d996f7cc2f323f72d5b4452caa228608717",
+        "3b9bea0a8051a2e7a5d6549b9a6360cd6790bf8ed30147573fb96c86d7c30f4b",
+        "a6b4180a2c797f1abfccb4f62743bf881dc5869f13dd1612322ec5f7a9359d3b",
+        "87bf6273dd2352a57d6147597a3a8603b2efbaea3a02db484784e971e9cb606b",
+        "1c5a55a01fc3f984aebdf41c1f122715e0d3710ed5c220984bc4aaf0882cf286",
+        "5f72e436fa730b82316b7f7e51a1a4159512fb88e4758a04deb1e3557c746fdf",
+        "8d1e513d184e52738a57f3834be4137b21a43d5306e40c388b0277785145f9ba",
+        "474e489343760b21eb775ff96fc6ac5cf1698e80462506bddbe23d4babcbe0bf",
+        "160ab3d3540a72e3d279159a214f1448d6bf2a4dae425b036be6b64b5cdb355f"
+      ]
+    },
+    "W": {
+      "bank_sha256": "650cacce2b103a50bf0b746510570b632ca0ba537c1cf09a79821f409f536a1a",
+      "source_frame_sha256": [
+        "df136e630f287d1a2dfbf07244d23a18dedadd46a97899ad2ae9b48d2a41ad7f",
+        "119004505db5b0b2f412c251a5831167dfb39a4138b7e072254e3b496af7221a",
+        "c441619f362cc160082db86192aac43c5751e61f912c57bbd9e6eb7f1a51c4d7",
+        "96d03a5da27aab535ef0c3e03d675dd062df927a65c56e5b34c7c035b12419fe",
+        "2eb9e72512c8bfe634fb14530a84e1fcd3a679f994f29b252f1fe14fab7adfb7",
+        "399a6618ed7a42242b2e36f71f7f72a4b2de2db4fd09b60be4b1328d662eeb42",
+        "05b0a0352225888d5c88e63c3e560c5513623d96b98971f887762ddbd7f70e3a",
+        "5f727ea1b3013a54353e268892a8ca28e585dee66be05aaa3c97173a5210b46e",
+        "0d9d483f995538e55d52a270f2ab69d79c8c1d8864cf470ccd09ca1ea2fe5fd3"
+      ]
+    },
+    "NW": {
+      "bank_sha256": "efea0aad113db81a0a1520ce84afab9c1119c56c5f5758f968bacec09ec6ba05",
+      "source_frame_sha256": [
+        "d989c7868e0fb90b71a97e786d66a76407abe90c14463e4ef615cca068d3f103",
+        "1389f4fd0dd7e01eda29be820967b5986048f638378d945c0a1bd47b329817d7",
+        "587e338c26b18ccd23c1659c96507c0bd53742e3b930a70fccb690f8ed0ff7a8",
+        "344bd3f59f37f7b7c4427c96f778b695188e7e8ee174759ca7620d4327e316d9",
+        "9034b5172ec4949dcc06c5f8650b419a4c68d256b307d20b8668e56a425e1cf3",
+        "0ec96511c225c96abc9bb1a21a47c3080d4f8370c50a8050202bc6a822deed40",
+        "6d36e1a397c01260813413d0fb69c593cda4eb260fab8b8cf97244bfd4e0b50f",
+        "95cd67bf2db410c35a4bfad0518a002a36ec6fed23b47519240120b0cc45addd",
+        "600ed296bfb44e43ac6af7fc7574e189aeb8bf1f17df3c3b2f4fec9920701709"
+      ]
+    }
+  }
+}

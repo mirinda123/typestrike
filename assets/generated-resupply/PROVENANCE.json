@@ -1,0 +1,9 @@
+{
+  "generator": "OpenAI image_gen",
+  "style_reference": "../PoliceShieldIcon.png",
+  "generation_description": "New ammunition-resupply icon in the reference retro 1990s pixel-art PC-game UI style. Navy inset, ivory and gray stepped bevel, olive ammunition box with three brass rifle cartridges and a green curved resupply arrow. No words or numbers. Opaque square background, crisp pixel clusters, legible beside shield/blink at 48x48.",
+  "source": "original.png",
+  "source_sha256": "1c903e79122de928e575da9885cb8235f2964a324b25557a6e7b7438bafc46b4",
+  "output": "../ResupplyIcon.png",
+  "pipeline": "RGB, nearest-neighbour resize once from generated original to 64x64; runtime centre-samples to 48x48. E keycap and four charge pips are code-drawn."
+}

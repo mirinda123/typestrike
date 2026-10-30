@@ -1,0 +1,233 @@
+[
+  {
+    "name": "movement",
+    "offset": 0,
+    "limit": 1024,
+    "source": "asm/movement.asm",
+    "purpose": "Local WASD integration, blink mailbox and animation state."
+  },
+  {
+    "name": "keyboard",
+    "offset": 1024,
+    "limit": 1536,
+    "source": "asm/keyboard.asm",
+    "purpose": "Typing mode and character queue; the native article accepts characters."
+  },
+  {
+    "name": "collision",
+    "offset": 1536,
+    "limit": 2048,
+    "source": "asm/collision.asm",
+    "purpose": "Physical catch and pending victory on the original UI thread."
+  },
+  {
+    "name": "result_render",
+    "offset": 3072,
+    "limit": 3840,
+    "source": "asm/result_render.asm",
+    "purpose": "Overlay result keyboard hints after the original scene."
+  },
+  {
+    "name": "result_render_original",
+    "offset": 3840,
+    "limit": 4096,
+    "source": "asm/result_render_original.asm",
+    "purpose": "Continue the original all-scenes renderer."
+  },
+  {
+    "name": "render",
+    "offset": 4096,
+    "limit": 5632,
+    "source": "asm/render.asm",
+    "purpose": "Borrow a mod sprite for the current player, draw, then restore native fields."
+  },
+  {
+    "name": "sprite_origin",
+    "offset": 5632,
+    "limit": 6144,
+    "source": "asm/sprite_origin.asm",
+    "purpose": "Keep enlarged shotgun W/SW cells aligned at the existing player blit."
+  },
+  {
+    "name": "render_original",
+    "offset": 6144,
+    "limit": 7168,
+    "source": "asm/render_original.asm",
+    "purpose": "Continue the original renderer after the detour."
+  },
+  {
+    "name": "device",
+    "offset": 7168,
+    "limit": 7680,
+    "source": "asm/device.asm",
+    "purpose": "Release owned surfaces and coordinate music on display changes."
+  },
+  {
+    "name": "device_original",
+    "offset": 7680,
+    "limit": 8192,
+    "source": "asm/device_original.asm",
+    "purpose": "Continue the original graphics callback."
+  },
+  {
+    "name": "overlay",
+    "offset": 8192,
+    "limit": 12288,
+    "source": "asm/overlay.asm",
+    "purpose": "Copy one coherent snapshot, draw bullet traces, flash and pixel HUD."
+  },
+  {
+    "name": "run_bank_0",
+    "offset": 12288,
+    "limit": 13312,
+    "source": "asm/run_bank_0.asm",
+    "purpose": "Load the selected role/weapon running sheet (bank 0)."
+  },
+  {
+    "name": "run_bank_1",
+    "offset": 13312,
+    "limit": 14336,
+    "source": "asm/run_bank_1.asm",
+    "purpose": "Load the selected role/weapon running sheet (bank 1)."
+  },
+  {
+    "name": "idle_bank",
+    "offset": 14336,
+    "limit": 16384,
+    "source": "asm/idle_bank.asm",
+    "purpose": "Load the selected role/weapon standing sheet."
+  },
+  {
+    "name": "network_poll",
+    "offset": 16384,
+    "limit": 17408,
+    "source": "asm/network_poll.asm",
+    "purpose": "Send message 7 through the existing DirectPlay COM session."
+  },
+  {
+    "name": "network_receive",
+    "offset": 17408,
+    "limit": 18432,
+    "source": "asm/network_receive.asm",
+    "purpose": "Copy bounded message 7 into the helper receive mailbox."
+  },
+  {
+    "name": "remote_movement",
+    "offset": 18432,
+    "limit": 18944,
+    "source": "asm/remote_movement.asm",
+    "purpose": "Apply authoritative remote poses on the native game thread."
+  },
+  {
+    "name": "copy_poses",
+    "offset": 18944,
+    "limit": 19456,
+    "source": "asm/copy_poses.asm",
+    "purpose": "Copy a stable pose mailbox using its even sequence number."
+  },
+  {
+    "name": "scene",
+    "offset": 19456,
+    "limit": 20480,
+    "source": "asm/scene.asm",
+    "purpose": "Apply a requested existing native scene (lobby/play/win/loss)."
+  },
+  {
+    "name": "remote_render",
+    "offset": 49152,
+    "limit": 51200,
+    "source": "asm/remote_render.asm",
+    "purpose": "Draw the other player from the authoritative role/weapon pose."
+  },
+  {
+    "name": "remote_loader",
+    "offset": 51200,
+    "limit": 52224,
+    "source": "asm/remote_loader.asm",
+    "purpose": "Create a remote role/weapon surface with native ownership."
+  },
+  {
+    "name": "borrow_sprite",
+    "offset": 52224,
+    "limit": 54272,
+    "source": "asm/borrow_sprite.asm",
+    "purpose": "Temporarily substitute a sprite surface and descriptor."
+  },
+  {
+    "name": "restore_sprite",
+    "offset": 54272,
+    "limit": 55296,
+    "source": "asm/restore_sprite.asm",
+    "purpose": "Restore every borrowed native sprite field."
+  },
+  {
+    "name": "release_remote",
+    "offset": 55296,
+    "limit": 56320,
+    "source": "asm/release_remote.asm",
+    "purpose": "Release all owned remote surfaces."
+  },
+  {
+    "name": "ime",
+    "offset": 56320,
+    "limit": 57344,
+    "source": "asm/ime.asm",
+    "purpose": "Capture/close/restore only the game window input context."
+  },
+  {
+    "name": "music",
+    "offset": 57344,
+    "limit": 58368,
+    "source": "asm/music.asm",
+    "purpose": "Mute the current native BGM buffer; restore volume and COM references."
+  },
+  {
+    "name": "caps_lock",
+    "offset": 58368,
+    "limit": 58624,
+    "source": "asm/caps_lock.asm",
+    "purpose": "Preserve the original caps-lock handling branch."
+  },
+  {
+    "name": "hud",
+    "offset": 59392,
+    "limit": 61440,
+    "source": "asm/hud.asm",
+    "purpose": "Draw skills, persistent typing prompt/shared charge, hearts, weapon and ammo."
+  },
+  {
+    "name": "article_loop",
+    "offset": 61440,
+    "limit": 63488,
+    "source": "asm/article_loop.asm",
+    "purpose": "Record accepted native article progress while movement owns the player."
+  },
+  {
+    "name": "character_original",
+    "offset": 63488,
+    "limit": 63744,
+    "source": "asm/character_original.asm",
+    "purpose": "Continue the original accepted-character handler."
+  },
+  {
+    "name": "typing_power",
+    "offset": 63744,
+    "limit": 65536,
+    "source": "asm/typing_power.asm",
+    "purpose": "Measure the native article caret, draw pixel flames, shake the completed back buffer."
+  },
+  {
+    "name": "map_move",
+    "offset": 23552,
+    "limit": 24576,
+    "source": "asm/map_move.asm",
+    "purpose": "Resolve local/AI feet against the expanded city mask with subpixel axis sliding."
+  },
+  {
+    "name": "lan_address",
+    "offset": 58624,
+    "limit": 58752,
+    "source": "asm/lan_address.asm",
+    "purpose": "Supply a directed broadcast BSTR to native DirectPlay connection initialization."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "files": [
+    "TypeGame.exe", "dx7vb.dll", "msvcp80.dll", "msvcr80.dll", "sps.dll",
+    "config.xml", "manifest.xml", "License.txt", "game/GameRes.dll", "game/GameSnd.dll"
+  ],
+  "directories": ["Data"],
+  "emptyFiles": ["game/Setting.DAT"]
+}

@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen",
+  "generated_source": "previews/PoliceShield-generated.png",
+  "layout": "5 columns x 8 headings; four walking frames and idle",
+  "dib_sha256": {
+    "PoliceShield0": "721fa242737a8ad417e99811cdc238b70c397a96e6b8761c8945624191fbd286",
+    "PoliceShield1": "18480ce26dba96a903376370308b7ba63e2778848d719a8bad904d2c6707a1ea",
+    "PoliceShieldIdle": "ccfff620a4b09fb130b3384a803d909b970f3b1bcc24379b597c90b85c886156"
+  },
+  "frame_size": [
+    92,
+    99
+  ],
+  "preserved": "accepted1.8.4 character height, foot baseline; transparent palette index0",
+  "prompt_file": "assets/shield-prompt.txt",
+  "agent": "Codex (GPT-6)"
+}
