@@ -2,6 +2,8 @@
 
 ![生死射速游戏封面](docs/images/cover.png)
 
+**[下载 1.0 完整游戏包](https://github.com/mirinda123/typestrike/releases/download/v1.0/TypeGameWASD-1.0.zip)**
+
 当前版本 **1.0**。基于经典打字游戏《生死时速》制作的魔改版，加入 WASD 移动、鼠标射击、打字充能和角色技能，支持警察与小偷的局域网对战。
 
 包含重制角色动画、AK47、霰弹枪，以及瞬移、持盾等玩法。
